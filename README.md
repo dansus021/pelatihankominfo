@@ -1,4 +1,4 @@
-# Aplikasi Kalkulator Sederhana
+# Aplikasi Pelatihan BPPTIk
 
 [![Boostrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/) [![HTML5](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3schools.com/html/) [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/) [![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)](https://jquery.com/)
 
@@ -6,7 +6,7 @@
 
 # Description
 
-Merupakan aplikasi kalkulator sederhana yang menampilkan hasil Penjumlahan, Pengurangan, Pembagian, Perkalian.
+Merupakan aplikasi web sederhana contoh dari lsp dan memiliki konten dari bpptik bertujuan untuk pelatihan
 
 ## Requirements
 
