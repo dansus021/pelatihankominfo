@@ -1,6 +1,6 @@
 # Aplikasi Kalkulator Sederhana
 
-[![Boostrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/) [![HTML5](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3schools.com/html/) [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
+[![Boostrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/) [![HTML5](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3schools.com/html/) [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/) [![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)](https://jquery.com/)
 
 ![No Need to Maintenace](https://img.shields.io/badge/Maintained%3F-no-red.svg)
 
@@ -13,6 +13,8 @@ Merupakan aplikasi kalkulator sederhana yang menampilkan hasil Penjumlahan, Peng
 * XAMPP: PHP >= v3.2.2
 * Google Chrome >= 93.0.4577.82
 * Boostrap >= 5.0
+* FontAwesome >= 5
+* jQuery >= 3.8.0
 
 ## Instalation
 
