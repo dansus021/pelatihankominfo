@@ -25,26 +25,26 @@
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
+					<a class="nav-link active" aria-current="page" href="index">Home</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					Profil
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<li><a class="dropdown-item" href="#">Profil Singkat</a></li>
-					<li><a class="dropdown-item" href="#">Visi dan Misi</a></li>
-					<li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
+					<li><a class="dropdown-item" href="profil">Profil Singkat</a></li>
+					<li><a class="dropdown-item" href="profil#visimisi">Visi dan Misi</a></li>
+					<li><a class="dropdown-item" href="profil#struktur">Struktur Organisasi</a></li>
 					</ul>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="#">Pelatihan</a>
+					<a class="nav-link" aria-current="page" href="pelatihan">Pelatihan</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="#">Sertifikasi</a>
+					<a class="nav-link" aria-current="page" href="sertifikasi">Sertifikasi</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="#">Jadwal</a>
+					<a class="nav-link" aria-current="page" href="jadwal">Jadwal</a>
 				</li>
 				<li class="nav-item">
 					<button class="btn btn-outline-info" type="submit">Registrasi Sekarang</button>
@@ -162,15 +162,15 @@
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
-				<form class="" type="">
+				<form method="post" action="hasilkontak.php?action=add">
 					<strong>Nama Anda:</strong>
-					<input type="text" class="form-control" name="username" placeholder="Silakan Input nama Anda..."  required>
+					<input type="text" class="form-control" name="nama" placeholder="Silakan Input nama Anda..."  required>
 					<p></p>
 					<strong>Email Anda:</strong>
-					<input type="email" class="form-control" name="username" placeholder="Silakan Input Email Anda..."  required>
+					<input type="email" class="form-control" name="email" placeholder="Silakan Input Email Anda..."  required>
 					<p></p>
 					<strong>Keterangan:</strong><br>
-					<font size="1%">(Jumlah Karakter Maksimal: 200)</font>
+					<font size="1%">(Jumlah Karakter Maksimal: 100)</font>
 					<textarea name="keterangan" class="form-control" rows="5" required placeholder="Silakan isi keterangan disini..."></textarea><br>					<div class="row text-right" style="margin-top:1%;">
 						<div class="col-sm-12 controls">
 						  <button type="submit" name="Submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> | Kirim</button>

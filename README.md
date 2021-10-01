@@ -21,3 +21,43 @@ Merupakan aplikasi kalkulator sederhana yang menampilkan hasil Penjumlahan, Peng
 ``XAMPP/Htdocs``
 
 ## Folder Tree
+📦PelatihanBPPTIK
+ ┣ 📂css
+ ┃ ┣ 📜all.min.css
+ ┃ ┣ 📜bootstrap.min.css
+ ┃ ┗ 📜cssku.css
+ ┣ 📂img
+ ┃ ┣ 📜jawal1.jpeg
+ ┃ ┣ 📜logo.png
+ ┃ ┣ 📜profilsingkat.webp
+ ┃ ┣ 📜slider1.jpg
+ ┃ ┣ 📜slider2.jpg
+ ┃ ┣ 📜slider3.jpg
+ ┃ ┗ 📜struktur.png
+ ┣ 📂js
+ ┃ ┗ 📜bootstrap.bundle.min.js
+ ┣ 📂webfonts
+ ┃ ┣ 📜fa-brands-400.eot
+ ┃ ┣ 📜fa-brands-400.svg
+ ┃ ┣ 📜fa-brands-400.ttf
+ ┃ ┣ 📜fa-brands-400.woff
+ ┃ ┣ 📜fa-brands-400.woff2
+ ┃ ┣ 📜fa-regular-400.eot
+ ┃ ┣ 📜fa-regular-400.svg
+ ┃ ┣ 📜fa-regular-400.ttf
+ ┃ ┣ 📜fa-regular-400.woff
+ ┃ ┣ 📜fa-regular-400.woff2
+ ┃ ┣ 📜fa-solid-900.eot
+ ┃ ┣ 📜fa-solid-900.svg
+ ┃ ┣ 📜fa-solid-900.ttf
+ ┃ ┣ 📜fa-solid-900.woff
+ ┃ ┗ 📜fa-solid-900.woff2
+ ┣ 📜.htaccess
+ ┣ 📜404.php
+ ┣ 📜hasilkontak.php
+ ┣ 📜index.php
+ ┣ 📜jadwal.php
+ ┣ 📜pelatihan.php
+ ┣ 📜profil.php
+ ┣ 📜README.md
+ ┗ 📜sertifikasi.php

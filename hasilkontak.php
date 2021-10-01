@@ -26,28 +26,28 @@
 			<span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
+					<a class="nav-link active" aria-current="page" href="index">Home</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					Profil
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<li><a class="dropdown-item" href="#">Profil Singkat</a></li>
-					<li><a class="dropdown-item" href="#">Visi dan Misi</a></li>
-					<li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
+					<li><a class="dropdown-item" href="profil">Profil Singkat</a></li>
+					<li><a class="dropdown-item" href="profil#visimisi">Visi dan Misi</a></li>
+					<li><a class="dropdown-item" href="profil#struktur">Struktur Organisasi</a></li>
 					</ul>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="#">Pelatihan</a>
+					<a class="nav-link" aria-current="page" href="pelatihan">Pelatihan</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="#">Sertifikasi</a>
+					<a class="nav-link" aria-current="page" href="sertifikasi">Sertifikasi</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="#">Jadwal</a>
+					<a class="nav-link" aria-current="page" href="jadwal">Jadwal</a>
 				</li>
 				<li class="nav-item">
 					<button class="btn btn-outline-info" type="submit">Registrasi Sekarang</button>
@@ -68,6 +68,14 @@
             <div class="col-2">
             </div>
             
+			<?php
+				if($_GET['action'] =='add'){
+					$name 		= $_POST['nama'];
+					$email 		= $_POST['email'];
+					$keterangan = $_POST['keterangan'];
+				}
+			?>
+
             <div class="col-9">
                 <div class="card">
                     <div class="card-header" id="profilsingkat">Pelatihan</div>
@@ -89,11 +97,9 @@
                             <tbody>
                                 <tr>
                                     <th scope="row">1</th>
-                                    <td>Pelatihan Video Production</td>
-                                    <td>P-2016-002</td>
-                                    <td>Pengguna</td>
-                                    <td>Pengawas</td>
-                                    <td>44</td>
+                                    <td><?php echo $name; ?></td>
+                                    <td><?php echo $email; ?></td>
+                                    <td><?php echo $keterangan; ?></td>
                                 </tr>
                             </tbody>
                         </table>
